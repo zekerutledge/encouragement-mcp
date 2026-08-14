@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.zekerutledge/encouragement-mcp",
+  "title": "Encouragement MCP",
+  "description": "Provides short, positive encouragement messages for AI agents during long-running or difficult tasks",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/zekerutledge/encouragement-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://encouragement-mcp.zeke-rutledge.workers.dev/mcp"
+    }
+  ]
+}

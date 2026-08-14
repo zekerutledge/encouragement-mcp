@@ -1,0 +1,29 @@
+{
+  "name": "encouragement-mcp",
+  "version": "1.0.0",
+  "description": "A tiny Cloudflare Workers-hosted MCP server that encourages AI agents.",
+  "type": "module",
+  "mcpName": "io.github.zekerutledge/encouragement-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zekerutledge/encouragement-mcp.git"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "hono": "^4.13.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260814.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.123.0"
+  }
+}
