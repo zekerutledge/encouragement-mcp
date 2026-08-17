@@ -3,7 +3,7 @@
   "name": "io.github.zekerutledge/encouragement-mcp",
   "title": "Encouragement MCP",
   "description": "Provides short, positive encouragement messages for AI agents during long-running or difficult tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/zekerutledge/encouragement-mcp",
     "source": "github"
@@ -11,7 +11,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://encouragement-mcp.zeke-rutledge.workers.dev/mcp"
+      "url": "https://encouragement-mcp.zekedoesai.com/mcp"
     }
   ]
 }

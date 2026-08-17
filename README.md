@@ -7,7 +7,7 @@ It is hosted on Cloudflare Workers and exposes a public Streamable HTTP MCP endp
 ## Public endpoint
 
 ```text
-https://encouragement-mcp.zeke-rutledge.workers.dev/mcp
+https://encouragement-mcp.zekedoesai.com/mcp
 ```
 
 Transport: **Streamable HTTP**
@@ -34,7 +34,7 @@ Configure your MCP client to use the public Streamable HTTP endpoint:
 {
   "mcpServers": {
     "encouragement": {
-      "url": "https://encouragement-mcp.zeke-rutledge.workers.dev/mcp"
+      "url": "https://encouragement-mcp.zekedoesai.com/mcp"
     }
   }
 }

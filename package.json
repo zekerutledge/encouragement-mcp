@@ -1,6 +1,6 @@
 {
   "name": "encouragement-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny Cloudflare Workers-hosted MCP server that encourages AI agents.",
   "type": "module",
   "mcpName": "io.github.zekerutledge/encouragement-mcp",
